@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--primary-color);
+}
+:root{
+  --primary-color:#edf2fc;
+  --secondary-color:#212121;
+}
+.dark-theme{
+  
+}
+header {
+  height: 100%;
+  width: 100%;
+  background:var(--primary-color)
+}
+nav {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+
+  /* border: 2px solid black;*/
+}
+.logo img {
+  width: 60px;
+  margin-left: 20px;
+}
+.links {
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  /*border: 2px solid red;*/
+  text-decoration: none;
+  display: flex;
+}
+.links a {
+  margin: 15px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 19px;
+  transition: 0.3s;
+}
+.links a:hover {
+  border-bottom: 3px solid rgb(91, 103, 247);
+  color: rgb(91, 103, 247);
+}
+.links a:active {
+  border-bottom: 3px solid red;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  margin-left: 10%;
+}
+.bx {
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bx:hover {
+  color: rgb(91, 103, 247);
+}
+main {
+  width: 95%;
+  min-height: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 55px;
+  margin: auto;
+}
+.herosection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  background-image: url(./circle-png-25311.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 55px;
+}
+.herosection .left {
+  width: 50%;
+
+  margin-left: 30px;
+}
+.herosection .right img {
+  width: 300px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
